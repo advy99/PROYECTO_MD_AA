@@ -21,7 +21,7 @@ for (i in 2:length(myfiles)){
   resultados_finales = cbind(resultados_finales, myfiles[[i]][["label"]])
 }
 
-colnames(resultados_finales) = c(1:33)
+colnames(resultados_finales) = c(1:length(resultados_finales))
 
 mode = resultados_finales %>% select(-1) %>% apply(1,getmode)
 
