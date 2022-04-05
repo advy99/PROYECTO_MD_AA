@@ -14,3 +14,5 @@ ResNet-BigEarth;Juan Helios;0,87835;;;;
 EfficientNetB2-ImageNet;Juan Emilio;0,96288;Random flip;Hiperparámetros;Si;26
 ResNet-BigEarth-Dense;Juan Helios;0,8824;Random flip + Zoom;;Si;
 ResNet-BigEarth;Juan Helios;0,907;;LearningRate;;
+VGG19;Diego;0.825;;Random flip;
+InceptionResnetv2;Diego;0.8;Resize+RandomCrop;;RandomFlip;
