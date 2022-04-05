@@ -16,3 +16,5 @@ ResNet-BigEarth-Dense;Juan Helios;0,8824;Random flip + Zoom;;Si;
 ResNet-BigEarth;Juan Helios;0,907;;LearningRate;;
 VGG19;Diego;0.825;;Random flip;
 InceptionResnetv2;Diego;0.8;Resize+RandomCrop;;RandomFlip;
+ResNet101-ImageNet;Carlos;0.90895;HorizontalFlip;LearningRate,DropoutRate;HorizontalFlip;22
+ResNet50-Imagenet;Carlos;0.81327;;LearningRate;Si;20
