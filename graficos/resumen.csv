@@ -1,6 +1,12 @@
 Modelo;Autor;Puntuación;Preprocesamiento;Optimización;DataAugmentation;Descongeladas
-InceptionV3-Básico;Antonio;0.7;;;Si;
+InceptionV3-Básico;Antonio;0.7;;;Si;0
 ModeloPropio;Antonio;0,64;;;No;
+BiT-m50x3;Antonio;0.79;RandomFlip;;Si;0
+BiT-m50x3;Antonio;0.85;RandomFlip;;Si;0
+Xception;Antonio;0.84;RandomFlip;;Si;20
+Xception;Antonio;0.88;RandomFlip;LearningRate;Si;20
+InceptionV3;Antonio;0.91;RandomFlip;LearningRate;Si;20
+Ensemble-mejores;Todos;0.95;;;;
 InceptionV3-SinCongelar;Antonio;0.76;;;No;
 EfficientNetB1-AdvProp;Juan Emilio;0,93;;;Si;20
 EfficientNetB2-AdvProp;Juan Emilio;0,921;;;Si;20
