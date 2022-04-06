@@ -1,26 +1,26 @@
-Modelo;Autor;Puntuación;Preprocesamiento;Optimización;DataAugmentation;Descongeladas
-InceptionV3-Básico;Antonio;0.7;;;Si;0
-ModeloPropio;Antonio;0,64;;;No;
-BiT-m50x3;Antonio;0.79;RandomFlip;;Si;0
-BiT-m50x3;Antonio;0.85;RandomFlip;;Si;0
-Xception;Antonio;0.84;RandomFlip;;Si;20
-Xception;Antonio;0.88;RandomFlip;LearningRate;Si;20
-InceptionV3;Antonio;0.91;RandomFlip;LearningRate;Si;20
-Ensemble-mejores;Todos;0.95;;;;
-InceptionV3-SinCongelar;Antonio;0.76;;;No;
-EfficientNetB1-AdvProp;Juan Emilio;0,93;;;Si;20
-EfficientNetB2-AdvProp;Juan Emilio;0,921;;;Si;20
-EfficientNetB2-ImageNet;Juan Emilio;0,926;;;No;20
-EfficientNetB2-ImageNet;Juan Emilio;0,94536;Random flip;;Si;20
-EfficientNetB1-ImageNet;Juan Emilio;0,93711;Random flip;;Si;20
-EfficientNetB3-NoisyStudent;Juan Emilio;0,939;Random flip;;Si;20
-EfficientNetB2-ImageNet;Juan Emilio;0,945;Random flip;Hiperparámetros;Si;20
-EfficientNetB2-ImageNet;Juan Emilio;0,9567;Random flip;Hiperparámetros;Si;23
-ResNet-BigEarth;Juan Helios;0,87835;;;;
-EfficientNetB2-ImageNet;Juan Emilio;0,96288;Random flip;Hiperparámetros;Si;26
-ResNet-BigEarth-Dense;Juan Helios;0,8824;Random flip + Zoom;;Si;
-ResNet-BigEarth;Juan Helios;0,907;;LearningRate;;
-VGG19;Diego;0.825;;Random flip;
-InceptionResnetv2;Diego;0.8;Resize+RandomCrop;;RandomFlip;
-ResNet101-ImageNet;Carlos;0.90895;HorizontalFlip;LearningRate,DropoutRate;HorizontalFlip;22
-ResNet50-Imagenet;Carlos;0.81327;;LearningRate;Si;20
+Modelo;Autor;Puntuación;Preprocesamiento;Optimización;DataAugmentation;Descongeladas;Familia
+InceptionV3-Básico;Antonio;0,7;Nada;Nada;Si;0;Inception
+ModeloPropio;Antonio;0,64;Nada;Nada;No;;Propio
+BiT-m50x3-1;Antonio;0,79;Random flip;Nada;Si;0;BiT
+BiT-m50x3-2;Antonio;0,85;Random flip;Nada;Si;0;BiT
+Xception-1;Antonio;0,84;Random flip;Nada;Si;20;Xception
+Xception-2;Antonio;0,88;Random flip;LearningRate;Si;20;Xception
+InceptionV3;Antonio;0,91;Random flip;LearningRate;Si;20;Inception
+Ensemble-mejores;Todos;0,95;Ensemble;Ensemble;Ensemble;;Ensemble
+InceptionV3-SinCongelar;Antonio;0,76;Nada;Nada;No;;Inception
+EfficientNetB1-AdvProp;Juan Emilio;0,93;Nada;Nada;Si;20;EfficientNet
+EfficientNetB2-AdvProp;Juan Emilio;0,921;Nada;Nada;Si;20;EfficientNet
+EfficientNetB2-ImageNet-1;Juan Emilio;0,926;Nada;Nada;No;20;EfficientNet
+EfficientNetB2-ImageNet-2;Juan Emilio;0,94536;Random flip;Nada;Si;20;EfficientNet
+EfficientNetB1-ImageNet;Juan Emilio;0,93711;Random flip;Nada;Si;20;EfficientNet
+EfficientNetB3-NoisyStudent;Juan Emilio;0,939;Random flip;Nada;Si;20;EfficientNet
+EfficientNetB2-ImageNet-3;Juan Emilio;0,945;Random flip;Hiperparámetros;Si;20;EfficientNet
+EfficientNetB2-ImageNet-4;Juan Emilio;0,9567;Random flip;Hiperparámetros;Si;23;EfficientNet
+ResNet50-BigEarth-1;Juan Helios;0,87835;Nada;Nada;No;;ResNet
+EfficientNetB2-ImageNet-5;Juan Emilio;0,96288;Random flip;Hiperparámetros;Si;26;EfficientNet
+ResNet50-BigEarth-Dense;Juan Helios;0,8824;Random flip + Zoom;Nada;Si;;ResNet
+ResNet50-BigEarth-2;Juan Helios;0,907;Nada;LearningRate;No;;ResNet
+VGG19;Diego;0,825;Nada;Random flip;No;;VGG
+InceptionResnetv2;Diego;0,8;Resize+RandomCrop;Nada;No;;InceptionResNet
+ResNet101-ImageNet;Carlos;0,90895;Random flip;LearningRate,DropoutRate;Si;22;ResNet
+ResNet50-Imagenet;Carlos;0,81327;Nada;LearningRate;Si;20;ResNet
